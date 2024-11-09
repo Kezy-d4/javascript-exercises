@@ -14,7 +14,7 @@ const repeatString = function(str, num) {
       outputString += str;
     }
   }
-  return outputString
+  return outputString;
 };
   
 // Do not edit below this line
