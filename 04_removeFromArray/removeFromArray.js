@@ -31,6 +31,7 @@ Get information about the array such as its length as well as its elements and t
 USEFUL TOOLS:
 array.splice()
 array.indexOf()
+array.includes()
 
 PSEUDO-CODE:
 
