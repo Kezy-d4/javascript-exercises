@@ -4,7 +4,7 @@ const removeFromArray = function(array, ...targets) {
 
     while (true) {
 
-      if (!(array.includes(target))) {
+      if (!array.includes(target)) {
         break;
 
       } else {
