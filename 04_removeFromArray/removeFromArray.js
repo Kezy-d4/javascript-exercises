@@ -1,15 +1,11 @@
-const removeFromArray = function(array, ...targets) {
-  console.log(array); // [ 1, 2, 3, 4 ]
-  console.log(targets); // [ 3 ]
+const removeFromArray = function(arr, ...targets) {
 
-  console.log(array.length); // 4 
-  console.log(targets.length); // 1
+  for (const target of targets) {
+    arr.splice(arr.indexOf(target), 1) 
+  }
 
-  console.log(array.indexOf(targets[0])); // 2
+  return arr;
 
-  array.splice(array.indexOf(targets[0]), 1)
-
-  return array;
 };
 
 /*
@@ -28,6 +24,9 @@ Get information about the array such as its length as well as its elements and t
 USEFUL TOOLS:
 array.splice()
 array.indexOf()
+
+PSEUDO-CODE:
+
 */
 
 // Do not edit below this line
