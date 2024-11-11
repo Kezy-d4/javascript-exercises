@@ -45,7 +45,6 @@ PLANNING...
 THE TASK:
 Given two positive integer arguments, return the sum of each integer between them (inclusively). E.g. sumAll(1, 4) should return the sum of 1 + 2 + 3 + 4 which is 10. 
 
-THE PROCESS:
 
 
 
