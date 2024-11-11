@@ -1,20 +1,20 @@
 const removeFromArray = function(array, ...targets) {
-  
+
   for (const target of targets) {
 
     while (true) {
-      array.splice(arr.indexOf(target), 1);
 
       if (!(array.includes(target))) {
         break;
+
+      } else {
+        array.splice(array.indexOf(target), 1);
       }
     }
   }
-
-  return arr;
-
+  return array;
 };
-
+      
 /*
 PLANNING...
 
