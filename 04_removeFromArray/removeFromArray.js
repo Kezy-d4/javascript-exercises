@@ -1,7 +1,15 @@
 const removeFromArray = function(arr, ...targets) {
 
   for (const target of targets) {
-    arr.splice(arr.indexOf(target), 1) 
+
+    while (true) {
+      arr.splice(arr.indexOf(target), 1);
+
+      if (!(arr.includes(target))) {
+        break;
+      }
+    }
+
   }
 
   return arr;
